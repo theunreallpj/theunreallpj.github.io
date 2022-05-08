@@ -29,7 +29,7 @@
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 20px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -76,7 +76,7 @@
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 20px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -123,7 +123,7 @@
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 20px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -279,6 +279,18 @@ body {
 .main3 .m3-mechaniken .content_mechaniken {
   border: 3px solid #ddd;
   border-radius: 50px;
+}
+
+.main3 .text .content_text, .s42 .content_s42, .m3-inhalte .content_inhalte, .m3-mechaniken .content_mechaniken {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.main3 .text:hover .content_text, .s42:hover .content_s42, .m3-inhalte:hover .content_inhalte, .m3-mechaniken:hover .content_mechaniken {
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 
 /*Fussnote + Infos---------------------------------------------------------------------------------------------------------------------------------------------------------*/

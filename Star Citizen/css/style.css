@@ -1,0 +1,295 @@
+/*Dropdown-Startseite + Kampagne-----------------------------------------------------------*/
+.dropdown {
+    overflow: hidden;
+    background-color: #696565;
+    display: block;
+    width: 100%;
+  }
+  
+  .dropdown a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown a:hover {
+    background-color: #2c3dda;
+  }
+  
+  .dropdown .kampagne {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .kampagne .kampagne-button {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown .kampagne a:hover, .kampagne:hover .kampagne-button {
+    background-color: #2c3dda;
+  }
+  
+  .dropdown .kampagne-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown .kampagne-content a {
+    float: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown .kampagne-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown .kampagne:hover .kampagne-content {
+    display: block;
+  }
+  
+  /*Dropdown-Inhalte--------------------------------------------------------------------*/
+  .inhalte {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .inhalte .inhalte-button {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown .inhalte:hover .inhalte-button {
+    background-color: #2c3dda;
+  }
+  
+  .inhalte-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .inhalte-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .inhalte-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .inhalte:hover .inhalte-content {
+    display: block;
+  }
+  
+  /*Dropdown-Mechaniken--------------------------------------------------------------------*/
+  .mechaniken {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .mechaniken .mechaniken-button {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown .mechaniken:hover .mechaniken-button {
+    background-color: #2c3dda;
+  }
+  
+  .mechaniken-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .mechaniken-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .mechaniken-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .mechaniken:hover .mechaniken-content {
+    display: block;
+  }
+  
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+  overflow-x: hidden;
+  margin: 0%;
+}
+
+.main1 {
+  background-image: url("../bilder/bg_main1.jpg");
+  width: 100%;
+  height: 1080px;
+  /*Parallax*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main1 .indexLogo {
+  height: 300px;
+  width: 600px;
+  padding-top: 150px;
+}
+
+.main1 p {
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+}
+
+.main1 p:hover {
+  color: rgb(40, 39, 41);
+}
+
+.main2 {
+  height: 150px;
+  background-color: #565052;
+}
+
+.main2  {
+  color: #f9f9f9;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.main2 p {
+  padding-left: 20px;
+  float: left;
+}
+
+.main2 .credits {
+  padding-left: 400px;
+}
+
+.main2 .credits .cigLogo, .rsiLogo {
+  float: left;
+  height: 100px;
+  width: 120px;
+  padding-top: 5Spx;
+  padding-left: 100px;
+}
+
+.main2 .credits .facebook, .instagram, .youtube {
+  float: left;
+  height: 50px;
+  width: 50px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.main3 {
+  background-image: url("../bilder/bg_main3.jpg");
+  width: 100%;
+  height: 1080px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main3 .content {
+  border: 10px solid #ddd;
+  border-radius: 20px;
+  width: 400px;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 1000px;
+  padding-right: 100px;
+
+}
+
+/*Fussnote + Infos---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.f1 {
+    background: #696565;
+    height: 115px;
+    color:#c0b1b1;
+    left: 0px;
+    bottom: 120px;
+    width: 100%;
+  
+  }
+  
+  .f1 {
+  text-align: center;
+  }
+  
+  .f1 a {
+  text-decoration: none;
+  overflow: hidden;
+  color: rgb(230, 214, 214);
+  }
+  
+  .f1 a:hover {
+  background-color: #c0b1b1;
+  color: #000;
+  border-radius: 3px;
+  }
+  
+  /*Fusszeile 2*/
+  
+  .f2 {
+  background-color: #50505c;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  }
+  
+  .f2 .infos {
+  color: #000000;
+  text-align: center;
+  }

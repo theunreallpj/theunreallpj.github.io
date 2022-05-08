@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Star Citizen</title>
+
+        <link rel="stylesheet" type="text/css" href="./css/schaltjahr.css">
+        <link rel="icon" href="..\pictures\starcitizen_logo.ico">
+
+        <script src="./schaltjahr.js"></script>
+    </head>
+    <body>
+
+<!--Dropdown------------------------------------------------------------------------------------->
+<nav>
+  <div class="dropdown">
+      <a href="#">Startseite</a>
+<!--Dropdown-Kampagne-------------------------------------------------------------------------------------->
+      <div class="kampagne">
+        <button class="kampagne-button">Kampagne 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="kampagne-content">
+          <a href="#" target="_blank">Squadron 42</a>
+        </div>
+      </div> 
+<!--Dropdown-Inhalte----------------------------------------------------------------------------------------->
+      <div class="inhalte">
+        <button class="inhalte-button">Inhalte
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="inhalte-content">
+            <a href="#">Schiffe</a>
+            <a href="#">Universum</a>
+            <a href="#">Systeme</a>
+            <a href="#">Fraktionen</a>
+            <a href="#">Locations</a>
+        </div>
+      </div>  
+<!--Dropdown-Mechaniken------------------------------------------------------------------------------------------------------------------------>  
+      <div class="mechaniken">
+        <button class="mechaniken-button">Mechaniken
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="mechaniken-content">
+          <a href="#">Kopfgeldjagd</a>
+          <a href="#">Mining</a>
+          <a href="#">Trading</a>
+        </div>
+      </div>
+<!--Dropdown-Kontakt--------------------------------------------------------------------------------------------->
+      
+      <div class="kontakt">
+        <a href="#" style="float: right;">Kontakt</a>
+      </div>
+
+    </div>
+</nav>
+<!----------------------------------------------------------------------------------------------------------------->
+
+<br>
+<div class="schaltjahr">
+    <input type="number" placeholder="Jahreszahl" id="input">
+    <br>
+    <br>
+    <button class="ueberpruefen-button" onclick="./js/schaltjahr_berechnung()">Überprüfen</button>
+</div>
+<br>
+
+<!--Fusszeile------------------------------------------------------------------------------------------------------->
+<div class="f1">
+  <div class="f-infos">
+      <a href="#">Startseite</a>
+      <a href="#">Kontakt</a>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutzerklärung</a>
+      
+
+  </div>
+</div>
+<div class="f2">
+  <br>
+  <p class="infos">Luca-Pascal Junge ©</p>
+  <p class="infos">TKDV Projekt 01BG01 Hr. Jäger</p>
+  <br>
+</div>
+<!--------------------------------------------------------------------------------------->
+    </body>
+</html>

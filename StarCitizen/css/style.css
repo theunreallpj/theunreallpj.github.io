@@ -11,7 +11,7 @@
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
   }
   
@@ -242,15 +242,43 @@ body {
   background-size: cover;
 }
 
-.main3 .content {
-  border: 10px solid #ddd;
-  border-radius: 20px;
-  width: 400px;
-  height: 600px;
-  padding-top: 100px;
-  padding-left: 1000px;
-  padding-right: 100px;
+.main3 .text {
+  float: left;
+  margin-left: 10%;
+}
 
+.main3 .text .content_text {
+  border: 3px solid #ddd;
+  border-radius: 50px;
+}
+
+.main3 .s42 {
+  margin-top: -3%;
+  margin-right: 10%;
+}
+
+.main3 .s42 .content_s42 {
+  border: 3px solid #ddd;
+  border-radius: 50px;
+}
+
+.main3 .m3-inhalte {
+  float: left;
+  margin-left: 10%;
+}
+
+.main3 .m3-inhalte .content_inhalte {
+  border: 3px solid #ddd;
+  border-radius: 50px;
+}
+
+.main3 .m3-mechaniken {
+  margin-right: 10%;
+}
+
+.main3 .m3-mechaniken .content_mechaniken {
+  border: 3px solid #ddd;
+  border-radius: 50px;
 }
 
 /*Fussnote + Infos---------------------------------------------------------------------------------------------------------------------------------------------------------*/

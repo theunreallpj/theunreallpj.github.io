@@ -1,0 +1,5 @@
+- https://code-boxx.com/keep-html-footers-at-bottom/#:~:text=The%20easy%20ways%20to%20keep%20a%20footer%20at,body%20section%2C%20keep%20the%20footer%20at%20the%20bottom.
+  --> 3 einfache Möglichkeiten, HTML-Fußzeilen unten zu halten
+
+- https://stackoverflow.com/questions/19253068/keep-the-drop-down-menu-on-top-of-other-elements
+  --> Keep the drop down menu on top of other elements

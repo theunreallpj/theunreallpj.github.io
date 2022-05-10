@@ -254,6 +254,12 @@ body {
   display: block;
 }
 
+.main3 .text .t-overlay .t-o-title a {
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+}
+
 .main3 .text .t-overlay {
   position: absolute;
   top: 0;
@@ -287,6 +293,12 @@ body {
   border: 3px solid #ddd;
   border-radius: 50px;
   display: block;
+}
+
+.main3 .s42 .s42-overlay .s42-o-title a {
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
 }
 
 .main3 .s42 .s42-overlay {
@@ -325,6 +337,12 @@ body {
   display: block;
 }
 
+.main3 .m3-inhalte .i-overlay .i-o-title a {
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+}
+
 .main3 .m3-inhalte .i-overlay {
   position: absolute;
   top: 0%;
@@ -357,6 +375,12 @@ body {
   border: 3px solid #ddd;
   border-radius: 50px;
   display: block;
+}
+
+.main3 .m3-mechaniken .m-overlay .m-o-title a {
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
 }
 
 .main3 .m3-mechaniken .m-overlay {

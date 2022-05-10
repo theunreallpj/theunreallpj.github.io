@@ -162,11 +162,14 @@
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 body {
     margin: 0%;
+    overflow-x: hidden;
     background-image: url('../bilder/impressum.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: cover;
-    width: 1920px;
+    background-position: center;
+    background-size: cover;
     height: 1080px;
+    width: 100%;
 }
 
 .impressum {

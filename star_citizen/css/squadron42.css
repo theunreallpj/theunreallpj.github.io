@@ -176,7 +176,53 @@ body {
     background-size: cover;
 }
 
-.main2 {}
+.main1 img {
+  padding-left: 50%;
+  padding-top: 20%;
+}
+
+.main1 .text-box {
+  margin-left: 200px;
+  margin-top: -450px;
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.main1 .text-box:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.main1 .text-box p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main1 .text-box .roadmap_innersite_link {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 2%;
+}
+
+.main1 .text-box .roadmap_innersite_link img {
+  padding-left: 40%;
+}
+
+.main2 {
+  width: 100%;
+  height: 175px;
+  padding-top: 0%;
+  background-color: #3d3d3d;
+  color: #f9f9f9;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  padding-top: 0%;
+}
+
+.main2 p {
+  margin: 0%;
+}
 
 .main3 {
     background-image: url('../bilder/s42main5.jpg');
@@ -188,7 +234,48 @@ body {
     background-size: cover;
 }
 
-.main4 {}
+.main3 img {
+  border-radius: 30px;
+  margin-left: 8%;
+  margin-top: 17%;
+  width: 800px;
+  height: 500px;
+  
+}
+
+.main3 .m3-textbox {
+  height: 400px;
+  width: 400px;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 30px;
+  margin-left: 65%;
+  margin-top: -500px;
+}
+
+.main3 .m3-textbox:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+.main3 .m3-textbox p {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+}
+
+.main4 {
+  width: 100%;
+  height: 175px;
+  padding-top: 0%;
+  background-color: #3d3d3d;
+  color: #f9f9f9;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  padding-top: 0%;
+}
+
+.main4 p {
+  margin: 0%;
+}
 
 .main5 {
     background-image: url('../bilder/s42main1.png');

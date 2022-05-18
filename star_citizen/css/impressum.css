@@ -1,165 +1,170 @@
 /*Dropdown-Startseite + Kampagne-----------------------------------------------------------*/
 .dropdown {
-    overflow: hidden;
-    background-color: #1a4864;
-    width: 100%;
-    border: 3px solid #08324e;
-  }
-  
-  .dropdown a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown a:hover {
-    background-color: #2c3dda;
-  }
-  
-  .dropdown .kampagne {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .kampagne .kampagne-button {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 20px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .dropdown .kampagne a:hover, .kampagne:hover .kampagne-button {
-    background-color: #2c3dda;
-  }
-  
-  .dropdown .kampagne-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown .kampagne-content a {
-    float: left;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown .kampagne-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown .kampagne:hover .kampagne-content {
-    display: block;
-  }
-  
-  /*Dropdown-Inhalte--------------------------------------------------------------------*/
-  .inhalte {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .inhalte .inhalte-button {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 20px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .dropdown .inhalte:hover .inhalte-button {
-    background-color: #2c3dda;
-  }
-  
-  .inhalte-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .inhalte-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .inhalte-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .inhalte:hover .inhalte-content {
-    display: block;
-  }
-  
-  /*Dropdown-Mechaniken--------------------------------------------------------------------*/
-  .mechaniken {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .mechaniken .mechaniken-button {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 20px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .dropdown .mechaniken:hover .mechaniken-button {
-    background-color: #2c3dda;
-  }
-  
-  .mechaniken-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .mechaniken-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .mechaniken-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .mechaniken:hover .mechaniken-content {
-    display: block;
-  }
-  
+  overflow: hidden;
+  background-color: #1a4864;
+  width: 100%;
+  border: 3px solid #08324e;
+}
+
+.dropdown a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background-color: #c0b1b1;
+}
+
+.dropdown .kampagne {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .kampagne .kampagne-button {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .kampagne a:hover, .kampagne:hover .kampagne-button {
+  background-color: #c0b1b1;
+}
+
+.dropdown .kampagne-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown .kampagne-content a {
+  float: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown .kampagne-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown .kampagne:hover .kampagne-content {
+  display: block;
+}
+
+/*Dropdown-Inhalte--------------------------------------------------------------------*/
+.inhalte {
+  float: left;
+  overflow: hidden;
+}
+
+.inhalte .inhalte-button {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .inhalte:hover .inhalte-button {
+  background-color: #c0b1b1;
+}
+
+.inhalte-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.inhalte-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.inhalte-content a:hover {
+  background-color: #ddd;
+}
+
+.inhalte:hover .inhalte-content {
+  display: block;
+}
+
+/*Dropdown-Mechaniken--------------------------------------------------------------------*/
+.mechaniken {
+  float: left;
+  overflow: hidden;
+}
+
+.mechaniken .mechaniken-button {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown .mechaniken:hover .mechaniken-button {
+  background-color: #c0b1b1;
+}
+
+.mechaniken-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.mechaniken-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.mechaniken-content a:hover {
+  background-color: #ddd;
+}
+
+.mechaniken:hover .mechaniken-content {
+  display: block;
+}
+
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+html {
+scroll-behavior: smooth;
+}
+
 body {
     margin: 0%;
     overflow-x: hidden;
@@ -185,41 +190,41 @@ body {
 
 /*Fussnote + Infos---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .f1 {
-    background: #696565;
-    height: 115px;
-    color:#c0b1b1;
-    left: 0px;
-    bottom: 120px;
-    width: 100%;
-  
-  }
-  
-  .f1 {
-  text-align: center;
-  }
-  
-  .f1 a {
-  text-decoration: none;
-  overflow: hidden;
-  color: rgb(230, 214, 214);
-  }
-  
-  .f1 a:hover {
-  background-color: #c0b1b1;
-  color: #000;
-  border-radius: 3px;
-  }
-  
-  /*Fusszeile 2*/
-  
-  .f2 {
-  background-color: #50505c;
-  bottom: 0px;
+  background: #1a4864;
+  height: 115px;
+  color:#c0b1b1;
   left: 0px;
+  bottom: 120px;
   width: 100%;
-  }
-  
-  .f2 .infos {
-  color: #000000;
-  text-align: center;
-  }
+
+}
+
+.f1 {
+text-align: center;
+}
+
+.f1 a {
+text-decoration: none;
+overflow: hidden;
+color: rgb(230, 214, 214);
+}
+
+.f1 a:hover {
+background-color: #c0b1b1;
+color: #000;
+border-radius: 3px;
+}
+
+/*Fusszeile 2*/
+
+.f2 {
+background-color: #696569;
+bottom: 0px;
+left: 0px;
+width: 100%;
+}
+
+.f2 .infos {
+color: #000000;
+text-align: center;
+}

@@ -16,7 +16,7 @@
   }
   
   .dropdown a:hover {
-    background-color: #2c3dda;
+    background-color: #c0b1b1;
   }
   
   .dropdown .kampagne {
@@ -36,7 +36,7 @@
   }
   
   .dropdown .kampagne a:hover, .kampagne:hover .kampagne-button {
-    background-color: #2c3dda;
+    background-color: #c0b1b1;
   }
   
   .dropdown .kampagne-content {
@@ -83,7 +83,7 @@
   }
   
   .dropdown .inhalte:hover .inhalte-button {
-    background-color: #2c3dda;
+    background-color: #c0b1b1;
   }
   
   .inhalte-content {
@@ -130,7 +130,7 @@
   }
   
   .dropdown .mechaniken:hover .mechaniken-button {
-    background-color: #2c3dda;
+    background-color: #c0b1b1;
   }
   
   .mechaniken-content {
@@ -160,6 +160,10 @@
   }
   
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   overflow-x: hidden;
@@ -197,7 +201,7 @@ body {
 
 .main2 {
   height: 150px;
-  background-color: #565052;
+  background-color: #1a4864;
   color: #f9f9f9;
   font-size: 20px;
   padding-top: 30px;
@@ -418,7 +422,7 @@ body {
 
 /*Fussnote + Infos---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .f1 {
-    background: #696565;
+    background: #1a4864;
     height: 115px;
     color:#c0b1b1;
     left: 0px;
@@ -446,7 +450,7 @@ body {
   /*Fusszeile 2*/
   
   .f2 {
-  background-color: #50505c;
+  background-color: #696569;
   bottom: 0px;
   left: 0px;
   width: 100%;
